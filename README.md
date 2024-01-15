@@ -24,7 +24,7 @@ Here's what you can expect from each chapter.
   Walks you through the foundations of the Ray project, namely its low-level API.
   It also discussed how Ray Tasks and Actors naturally extend from Python functions and classes.
   You also learn about all of Ray's system components and how they work together.
-_* [_Chapter 3, Building Your First Distributed Application with Ray Core_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_03_core_app.ipynb)
+* [_Chapter 3, Building Your First Distributed Application with Ray Core_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_03_core_app.ipynb)
   Gives you an introduction to distributed systems and what makes them hard.
   We'll then build a first application together and discuss how to peak behind the scenes
   and get insights from the Ray toolbox.

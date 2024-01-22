@@ -1,58 +1,29 @@
-# Learning Ray - Flexible Distributed Python for Machine Learning
+# 러닝 레이
+**대규모 모델 훈련에 효율적인 라이브러리로 빠르게 구현하는 파이썬 분산 처리**
+<img src="https://raw.githubusercontent.com/hanbit/learning-ray/main/notebooks/images/learning_ray.png" height="256px" align="right"></a>
+- 지은이 : 막스 펌펄라, 에드워드 옥스, 리차드 리우
+- 옮긴이 : 김완수
 
-Jupyter notebooks and other resources for the upcoming book "Learning Ray" (O'Reilly).
-All code and diagrams used in the book are available here for free.
-The notebooks can be read online, as we add more and more explanations in the online version.
-If you want to support this project and  buy the book itself, you can get it 
-[directly from O'Reilly](https://www.oreilly.com/library/view/learning-ray/9781098117214/),
-or [from Amazon](https://www.amazon.com/Learning-Ray-Flexible-Distributed-Machine/dp/1098117220/).
-The book will be published in May 2023, but online versions should be available before that.
+## 도서 소개
+**텐서플로, 파이토치의 속도를 높이는 분산 라이브러리**
 
-![러닝 레이](https://raw.githubusercontent.com/hanbit/learning-ray/main/notebooks/images/learning_ray.png)
+파이썬 프로젝트를 쉽게 확장하는 오픈 소스 분산 컴퓨팅 프레임워크 레이를 시작하세요. 이 책은 파이썬 프로그래머와 데이터 엔지니어, 데이터 과학자가 로컬에서 레이를 활용하고 컴퓨팅 클러스터를 구성하는 방법을 소개합니다. 레이를 이용하여 대규모 머신러닝 프로그램을 구조화하고 실행하는 방법을 익혀보세요. 레이가 머신러닝에서 어떤 위치를 차지하고 있으며 다른 도구와 어떻게 밀접하게 통합되는지 이해할 수 있습니다. 레이를 사용하면 복잡하게만 느껴지던 분산 컴퓨팅이 훨씬 쉬워질 겁니다.
 
-The book is organized to guide you chapter by chapter from core concepts of Ray to more sophisticated topics along the way.
-The first three chapters of the book teach the basics of Ray as a distributed Python framework with practical examples.
-Chapters four to ten introduce Ray's high-level libraries and show how to build applications with them.
-The last two chapters give you an overview of Ray's ecosystem and show you where to go next.
-Here's what you can expect from each chapter.
 
-* [_Chapter 1, An Overview of Ray_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_01_overview.ipynb)
-  Introduces you at a high level to all of Ray's components, how it can be used in
-  machine learning and other tasks, what the Ray ecosystem currently looks like and how
-  Ray as a whole fits into the landscape of distributed Python.
-* [_Chapter 2, Getting Started with Ray_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_02_ray_core.ipynb)
-  Walks you through the foundations of the Ray project, namely its low-level API.
-  It also discussed how Ray Tasks and Actors naturally extend from Python functions and classes.
-  You also learn about all of Ray's system components and how they work together.
-* [_Chapter 3, Building Your First Distributed Application with Ray Core_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_03_core_app.ipynb)
-  Gives you an introduction to distributed systems and what makes them hard.
-  We'll then build a first application together and discuss how to peak behind the scenes
-  and get insights from the Ray toolbox.
-* [_Chapter 4, Reinforcement Learning with Ray RLlib_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_04_rllib.ipynb)
-  Gives you a quick introduction to reinforcement learning and shows how Ray implements
-  important concepts in RLlib. After building some examples together, we'll also dive into
-  more advanced topics like preprocessors, custom models, or working with offline data.
-* [_Chapter 5, Hyperparameter Optimization with Ray Tune_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_05_tune.ipynb)
-  Covers why efficiently tuning hyperparameters is hard, how Ray Tune works conceptually,
-  and how you can use it in practice for your machine learning projects.
-* [_Chapter 6, Data Processing with Ray_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_06_data_processing.ipynb)
-  Introduces you to the Dataset abstraction of Ray and how it fits into the landscape
-  of other data structures. You will also learn how to bring pandas data frames, Dask
-  data structures and Apache Spark workloads to Ray.
-* [_Chapter 7, Distributed Training with Ray Train_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_07_train.ipynb)
-  Provides you with the basics of distributed model training and shows you how to use
-  RaySGD with popular frameworks such as TensorFlow or PyTorch, and how to combine it
-  with Ray Tune for hyperparameter optimization.
-* [_Chapter 9, Serving Models with Ray Serve_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_08_model_serving.ipynb)
-  Introduces you to model serving with Ray, why it works well within the framework,
-  and how to do single-node and cluster deployment with it.
-* [_Chapter 9, Working with Ray Clusters_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_09_script.ipynb)
-  This chapter is all about how you configure, launch and scale Ray clusters for your applications.
-  You'll learn about Ray's cluster launcher CLI and autoscaler, as well as how to set
-  up clusters in the cloud and how to deploy on Kubernetes and other cluster managers.
-* [_Chapter 10, Getting Started with the Ray AI Runtime_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_10_air.ipynb)
-  Introduces you to Ray AIR, a unified toolkit for your ML workloads that offers many
-  third party integrations for model training or accessing custom data sources.
-* [_Chapter 11, Ray's Ecosystem and Beyond_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_11_ecosystem.ipynb)
-  Gives you an overview of the many interesting extensions and
-  integrations that Ray has attracted over the years._ 
+## 목차
+* [_Chapter 1 레이 살펴보기_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_01_overview.ipynb)
+* [_Chapter 2 레이 코어로 시작하는 분산 컴퓨팅_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_02_ray_core.ipynb)
+* [_Chapter 3 분산 애플리케이션 개발_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_03_core_app.ipynb)
+* [_Chapter 4 레이 RLlib을 활용한 강화학습_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_04_rllib.ipynb)
+* [_Chapter 5 레이 튠을 활용한 하이퍼파라미터 최적화_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_05_tune.ipynb)
+* [_Chapter 6 레이 데이터셋을 활용한 데이터 분산 처리_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_06_data_processing.ipynb)
+* [_Chapter 7 레이 트레인을 활용한 분산 모델 훈련_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_07_train.ipynb)
+* [_Chapter 8 레이 서브를 활용한 온라인 추론_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_08_model_serving.ipynb)
+* [_Chapter 9 레이 클러스터를 활용한 스케일링_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_09_script.ipynb)
+* [_Chapter 10 레이 AIR로 구성하는 데이터 과학 워크플로_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_10_air.ipynb)
+* [_Chapter 11 레이 생태계와 그 너머_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_11_ecosystem.ipynb)
+
+## 도서 구매
+- [교보문고]()
+- [YES24]()
+- [알라딘]()

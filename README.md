@@ -24,6 +24,6 @@
 * [_Chapter 11 레이 생태계와 그 너머_](https://github.com/hanbit/learning-ray/blob/main/notebooks/ch_11_ecosystem.ipynb)
 
 ## 도서 구매
-- [교보문고]()
-- [YES24]()
-- [알라딘]()
+- [교보문고](https://product.kyobobook.co.kr/detail/S000212175555)
+- [YES24](https://www.yes24.com/Product/Goods/124774071)
+- [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=333005617)
